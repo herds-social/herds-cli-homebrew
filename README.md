@@ -1,16 +1,14 @@
-# herds-cli-homebrew
+# homebrew-herds-cli
 
 Homebrew tap for the [Herds CLI](https://github.com/herds-social/herds-cli).
 
 ## Install
 
 ```bash
-brew tap herds-social/herds-cli-homebrew https://github.com/herds-social/herds-cli-homebrew.git
-brew trust herds-social/herds-cli-homebrew   # first install on Homebrew 4.x+
+brew tap herds-social/herds-cli
+brew trust --formula herds-social/herds-cli/herds   # required on Homebrew 6.0.0+ (5.2.0+)
 brew install herds
 ```
-
-The repo is not named `homebrew-herds-cli-homebrew`, so the explicit GitHub URL is required for `brew tap`.
 
 ## Upgrade
 
