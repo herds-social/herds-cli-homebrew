@@ -3,8 +3,8 @@ class Herds < Formula
 
   desc "Command-line interface for the Herds event platform"
   homepage "https://github.com/herds-social/herds-cli"
-  url "https://github.com/herds-social/herds-cli/releases/download/cli-v4.2.1/herds_cli-4.2.1.tar.gz"
-  sha256 "ace9cb33dc73af6659d1d5b9193f54804e2f7016e770a656e0143ca7168ecd78"
+  url "https://github.com/herds-social/herds-cli/releases/download/cli-v4.3.0/herds_cli-4.3.0.tar.gz"
+  sha256 "3406028045d939d0737175343d316d63e52a53195e043757b9494aab9aaa1d65"
   license "Apache-2.0"
 
   depends_on "python@3.11"
